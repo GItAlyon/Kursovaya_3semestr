@@ -1,4 +1,0 @@
-D:\Visual Studio\Kursovaya\Kursovaya\x64\Debug\Kursovaya.vcxproj.AssemblyReference.cache
-D:\Visual Studio\Kursovaya\Kursovaya\x64\Debug\Kursovaya.MyForm.resources
-D:\Visual Studio\Kursovaya\Kursovaya\x64\Debug\Kursovaya.vcxproj.GenerateResource.cache
-D:\Visual Studio\Kursovaya\Kursovaya\x64\Debug\Kursovaya.Igra.resources
