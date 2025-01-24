@@ -15,121 +15,102 @@ namespace Kursovaya {
 	/// <summary>
 	/// Сводка для Igra
 	/// </summary>
-	public ref class Igra : public System::Windows::Forms::Form
-	{
-	public:
-		Igra(void)
-		{
-			InitializeComponent();
-			//
-			//TODO: добавьте код конструктора
-			//
-		}
+    public ref class Igra : public System::Windows::Forms::Form
+    {
+    public:
+        Igra(void)
+        {
+            InitializeComponent();
+            //
+            //TODO: добавьте код конструктора
+            //
+            this->KeyPreview = true; // Разрешаем обработку клавиш на уровне формы
+            this->KeyDown += gcnew KeyEventHandler(this, &Igra::Igra_KeyDown); // Подключаем обработчик
+        }
 
-	protected:
-		/// <summary>
-		/// Освободить все используемые ресурсы.
-		/// </summary>
-		~Igra()
-		{
-			if (components)
-			{
-				delete components;
-			}
-		}
-	private: System::Windows::Forms::Button^ Menu;
-	private: System::Windows::Forms::ImageList^ imageList1;
-	private: System::Windows::Forms::PictureBox^ pictureBox1;
+    protected:
+        ~Igra()
+        {
+            if (components)
+            {
+                delete components;
+            }
+        }
 
+    private:
+        System::Windows::Forms::Button^ Nach_igra;
+        System::Windows::Forms::Button^ Exit;
+        System::Windows::Forms::PictureBox^ pictureBox1;
+    private: System::Windows::Forms::Button^ NaGlavnuu;
+    private: System::Windows::Forms::PictureBox^ pictureBox2;
+           System::ComponentModel::Container^ components;
 
+        void InitializeComponent(void)
+        {
+            System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Igra::typeid));
+            this->NaGlavnuu = (gcnew System::Windows::Forms::Button());
+            this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
+            this->SuspendLayout();
+            // 
+            // NaGlavnuu
+            // 
+            this->NaGlavnuu->BackColor = System::Drawing::Color::Transparent;
+            this->NaGlavnuu->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->NaGlavnuu->Font = (gcnew System::Drawing::Font(L"Mistral", 36, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->NaGlavnuu->ForeColor = System::Drawing::Color::Maroon;
+            this->NaGlavnuu->Location = System::Drawing::Point(90, 72);
+            this->NaGlavnuu->Name = L"NaGlavnuu";
+            this->NaGlavnuu->Size = System::Drawing::Size(181, 64);
+            this->NaGlavnuu->TabIndex = 0;
+            this->NaGlavnuu->Text = L"Главная";
+            this->NaGlavnuu->UseVisualStyleBackColor = false;
+            this->NaGlavnuu->Click += gcnew System::EventHandler(this, &Igra::NaGlavnuu_Click);
+            // 
+            // pictureBox2
+            // 
+            this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+            this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+            this->pictureBox2->Location = System::Drawing::Point(295, -49);
+            this->pictureBox2->Name = L"pictureBox2";
+            this->pictureBox2->Size = System::Drawing::Size(1216, 1155);
+            this->pictureBox2->TabIndex = 1;
+            this->pictureBox2->TabStop = false;
+            // 
+            // Igra
+            // 
+            this->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
+            this->ClientSize = System::Drawing::Size(1920, 1061);
+            this->Controls->Add(this->pictureBox2);
+            this->Controls->Add(this->NaGlavnuu);
+            this->Name = L"Igra";
+            this->Load += gcnew System::EventHandler(this, &Igra::Igra_Load);
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
+            this->ResumeLayout(false);
 
-	private: System::ComponentModel::IContainer^ components;
-	protected:
+        }
 
-	protected:
+    private: System::Void Igra_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
+        // Проверяем, была ли нажата клавиша Esc
+        if (e->KeyCode == Keys::Escape) {
+            this->Close(); // Закрываем форму
+        }
+    }
 
-	private:
-		/// <summary>
-		/// Обязательная переменная конструктора.
-		/// </summary>
+    private: System::Void Exit_Click(System::Object^ sender, System::EventArgs^ e) {
+        exit(0);
+    }
 
+    private: System::Void Nach_igra_Click(System::Object^ sender, System::EventArgs^ e) {
+        Igra^ glav_igra = gcnew Igra();
+        glav_igra->Show();
+    }
+    private: System::Void Igra_Load(System::Object^ sender, System::EventArgs^ e) {
+    }
+    private: System::Void NaGlavnuu_Click(System::Object^ sender, System::EventArgs^ e) {
+        this->Close();
+    }
+    };
 
-#pragma region Windows Form Designer generated code
-		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
-		/// </summary>
-		void InitializeComponent(void)
-		{
-			this->components = (gcnew System::ComponentModel::Container());
-			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Igra::typeid));
-			this->Menu = (gcnew System::Windows::Forms::Button());
-			this->imageList1 = (gcnew System::Windows::Forms::ImageList(this->components));
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
-			this->SuspendLayout();
-			// 
-			// Menu
-			// 
-			this->Menu->BackColor = System::Drawing::Color::Transparent;
-			this->Menu->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->Menu->Font = (gcnew System::Drawing::Font(L"Mistral", 36, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->Menu->ForeColor = System::Drawing::Color::Maroon;
-			this->Menu->Location = System::Drawing::Point(55, 99);
-			this->Menu->Margin = System::Windows::Forms::Padding(2);
-			this->Menu->Name = L"Menu";
-			this->Menu->Size = System::Drawing::Size(220, 50);
-			this->Menu->TabIndex = 0;
-			this->Menu->Text = L"Главное меню";
-			this->Menu->UseVisualStyleBackColor = false;
-			this->Menu->Click += gcnew System::EventHandler(this, &Igra::Menu_Click);
-			// 
-			// imageList1
-			// 
-			this->imageList1->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"imageList1.ImageStream")));
-			this->imageList1->TransparentColor = System::Drawing::Color::Transparent;
-			this->imageList1->Images->SetKeyName(0, L"перс.jpg");
-			this->imageList1->Images->SetKeyName(1, L"перс1.jpg");
-			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
-			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
-			this->pictureBox1->Location = System::Drawing::Point(529, 175);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(738, 416);
-			this->pictureBox1->TabIndex = 1;
-			this->pictureBox1->TabStop = false;
-			this->pictureBox1->WaitOnLoad = true;
-			// 
-			// Igra
-			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
-			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->ClientSize = System::Drawing::Size(1924, 1061);
-			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->Menu);
-			this->Margin = System::Windows::Forms::Padding(2);
-			this->Name = L"Igra";
-			this->Text = L"Igra";
-			this->Load += gcnew System::EventHandler(this, &Igra::Igra_Load);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
-			this->ResumeLayout(false);
-
-		}
-#pragma endregion
-	private: System::Void Igra_Load(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void Igra_Activated(System::Object^ sender, System::EventArgs^ e) {
-
-	}
-	
-	private: System::Void Menu_Click(System::Object^ sender, System::EventArgs^ e) {
-		this->Close();
-		/*MyForm^ glav = gcnew MyForm();
-		glav->Show();*/
-	}
-	};
 }
