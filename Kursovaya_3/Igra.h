@@ -6,14 +6,19 @@
 #include <cstdlib>
 #include <Windows.h>
 #include <stdio.h>
-#include "Apperance1.h"
+#include <stdlib.h>
+#include <sstream>
+#include <string>
+#include <string.h>
+#include <Windows.h>
+#include "Resident.h"
+#include "VisitorPass.h"
 const int MAX_NAME_LENGTH = 50;
 const int MAX_APPEARANCE_LENGTH = 50;
 const int MAX_PHONE_LENGTH = 15;
 const int RESIDENTS_COUNT = 5;
-const char* FILENAME = "residents2.txt";
-const char* RESULT_FILENAME = "results2.txt";
-
+/*const char* FILENAME = "residents2.txt";
+const char* RESULT_FILENAME = "results2.txt";*/
 
 namespace Kursovaya {
 
@@ -23,6 +28,7 @@ namespace Kursovaya {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+    using namespace System::Runtime::InteropServices; // для извлечения текста из textbox
 
 	/// <summary>
 	/// Сводка для Igra
@@ -68,6 +74,7 @@ namespace Kursovaya {
     private: System::Windows::Forms::TextBox^ Answer4;
     private: System::Windows::Forms::Label^ Question5;
     private: System::Windows::Forms::TextBox^ Answer5;
+    private: System::Windows::Forms::Button^ Knopka_ok;
 
 
 
@@ -91,6 +98,7 @@ namespace Kursovaya {
             this->Answer4 = (gcnew System::Windows::Forms::TextBox());
             this->Question5 = (gcnew System::Windows::Forms::Label());
             this->Answer5 = (gcnew System::Windows::Forms::TextBox());
+            this->Knopka_ok = (gcnew System::Windows::Forms::Button());
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
             this->SuspendLayout();
@@ -215,10 +223,22 @@ namespace Kursovaya {
             this->Answer5->Size = System::Drawing::Size(100, 22);
             this->Answer5->TabIndex = 12;
             // 
+            // Knopka_ok
+            // 
+            this->Knopka_ok->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Knopka_ok->Location = System::Drawing::Point(1172, 560);
+            this->Knopka_ok->Name = L"Knopka_ok";
+            this->Knopka_ok->Size = System::Drawing::Size(109, 44);
+            this->Knopka_ok->TabIndex = 13;
+            this->Knopka_ok->Text = L"Проверить";
+            this->Knopka_ok->UseVisualStyleBackColor = false;
+            this->Knopka_ok->Click += gcnew System::EventHandler(this, &Igra::Knopka_ok_Click);
+            // 
             // Igra
             // 
             this->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
             this->ClientSize = System::Drawing::Size(1920, 1055);
+            this->Controls->Add(this->Knopka_ok);
             this->Controls->Add(this->Answer5);
             this->Controls->Add(this->Question5);
             this->Controls->Add(this->Answer4);
@@ -264,6 +284,46 @@ namespace Kursovaya {
     private: System::Void NaGlavnuu_Click(System::Object^ sender, System::EventArgs^ e) {
         this->Close();
     }
-    };
+    private: System::Void Knopka_ok_Click(System::Object^ sender, System::EventArgs^ e) {
+        FILE* Rez_list = fopen("residents2.txt", "r");
+        // Инициализация жильцов
+        Resident residents[5];
+        int residentCount = 0;
+        while (Rez_list) {
+            char first[MAX_NAME_LENGTH], last[MAX_NAME_LENGTH], id[3], hair[MAX_NAME_LENGTH], cloth[MAX_APPEARANCE_LENGTH], phone[MAX_PHONE_LENGTH];
+            fflush(stdin);
+            fscanf(Rez_list, "%s %s %s %s %s %s", first, last, id, hair, cloth, phone);
+            residents[residentCount].setResident(first, last, id, hair, cloth, phone);
+            residentCount++;
+        }
+        if (residentCount == 0) {
+            std::cout << "Ой. Похоже, что в этом доме ещё никто не живёт!\n";
+            fclose(Rez_list);
+            exit(1);
+        }
+        fclose(Rez_list);
 
+        // Инициализация прешедшего жильца
+        VisitorPass visitor;
+        // Переменные для считывания ответов из textbox
+        char *pr_name;
+        char *pr_surname;
+        char *pr_id;
+        char* pr_hair;
+        char *pr_clothers;
+        IntPtr ptr1 = Marshal::StringToHGlobalAnsi(this->Answer1->Text); //преобразовать информацию из TextBox в массив char
+        pr_name = (char*)ptr1.ToPointer();
+        IntPtr ptr2 = Marshal::StringToHGlobalAnsi(this->Answer2->Text); //преобразовать информацию из TextBox в массив char
+        pr_surname = (char*)ptr2.ToPointer();
+        IntPtr ptr3 = Marshal::StringToHGlobalAnsi(this->Answer3->Text); //преобразовать информацию из TextBox в массив char
+        pr_id = (char*)ptr3.ToPointer();
+        IntPtr ptr4 = Marshal::StringToHGlobalAnsi(this->Answer5->Text); //преобразовать информацию из TextBox в массив char
+        pr_hair = (char*)ptr4.ToPointer();
+        IntPtr ptr5 = Marshal::StringToHGlobalAnsi(this->Answer4->Text); //преобразовать информацию из TextBox в массив char
+        pr_clothers = (char*)ptr5.ToPointer();
+        visitor.setVisitor(pr_name, pr_surname, pr_id, pr_hair, pr_clothers);
+
+        
+    }
+};
 }

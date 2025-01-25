@@ -123,16 +123,19 @@
     <ClCompile Include="Apperance.cpp" />
     <ClCompile Include="Igra.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Resident.cpp" />
+    <ClCompile Include="VisitorPass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Apperance.h" />
-    <ClInclude Include="Apperance1.h" />
     <ClInclude Include="Igra.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Resident.h" />
+    <ClInclude Include="VisitorPass.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Igra.resx">

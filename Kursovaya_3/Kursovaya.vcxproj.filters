@@ -24,6 +24,12 @@
     <ClCompile Include="Apperance.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Resident.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="VisitorPass.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -35,7 +41,10 @@
     <ClInclude Include="Apperance.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Apperance1.h">
+    <ClInclude Include="Resident.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitorPass.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
