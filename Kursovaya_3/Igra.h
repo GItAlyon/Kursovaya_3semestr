@@ -474,7 +474,14 @@ namespace Kursovaya {
     private: System::Void Igra_Load(System::Object^ sender, System::EventArgs^ e) {
     }
     private: System::Void Igra_Activated(System::Object^ sender, System::EventArgs^ e) {
-        
+        i = 0;
+        proh = 0;
+        f = 0; // Дома или нет
+        g = 0;
+        totalActualResidents = 0;
+        totalMonsters = 0;
+        totalActResNOT = 0;
+        totalMonsNOT = 0;
     }
     private: System::Void NaGlavnuu_Click(System::Object^ sender, System::EventArgs^ e) {
         this->Close();
@@ -582,20 +589,7 @@ namespace Kursovaya {
                 g = 0;
             }
             proh++;
-            /*if (proh == 5) {
-                this->Pobeda->Visible = true;
-                this->Knopka_ok->Enabled = false;
-                resultat^ res = gcnew resultat();
-                res->Show();
-                this->Close();
-            }*/
             i++;
-
-
-
-
-
-        
     }
 private: System::Void Zvon_da_Click(System::Object^ sender, System::EventArgs^ e) {
     this->Phone_button->Enabled = true;
@@ -609,7 +603,7 @@ private: System::Void Phone_button_Click(System::Object^ sender, System::EventAr
     FILE* Rez_list;
     Rez_list = fopen("residents2.txt", "r");
     if (!Rez_list) {
-        MessageBox::Show("База данных пуста!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+        MessageBox::Show("Упс!похоже в этом доме пока что никто не живёт!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
         this->Close();
     }
     fflush(stdin);
@@ -622,13 +616,12 @@ private: System::Void Phone_button_Click(System::Object^ sender, System::EventAr
         residentCount = residentCount + 1;
     }
     if (residentCount == 0) {
-        MessageBox::Show("данных пуста!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+        MessageBox::Show("Упс!похоже в этом доме пока что никто не живёт!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
         fclose(Rez_list);
         this->Close();
     }
     fclose(Rez_list);
 
-    //strcmp(tel, residents[i1].getPhone()) == 0
     char* tel;
     IntPtr p = Marshal::StringToHGlobalAnsi(this->Telephone->Text); //преобразовать информацию из TextBox в массив char
     tel = (char*)p.ToPointer();
@@ -663,7 +656,12 @@ private: System::Void Propusk_da_Click(System::Object^ sender, System::EventArgs
     this->Propusk_da->Visible = false;
     this->Propusk_net->Visible = false;
     this->Label_propusk->Visible = false;
-    this->Telephone->Enabled = false;
+    this->Phone_button->Enabled = false;
+    this->Answer1->Text = L"";
+    this->Answer2->Text = L"";
+    this->Answer3->Text = L"";
+    this->Answer4->Text = L"";
+    this->Answer5->Text = L"";
     if (g) totalActualResidents++;
     else {
         totalMonsters++;
@@ -678,6 +676,7 @@ private: System::Void Propusk_da_Click(System::Object^ sender, System::EventArgs
         fprintf(resultFile, "Монстров-двойников не пропущено: %d\n", totalMonsNOT);
 
         fclose(resultFile);
+
         resultat^ res = gcnew resultat();
         res->Show();
         this->Close();
@@ -710,7 +709,12 @@ private: System::Void Propusk_net_Click(System::Object^ sender, System::EventArg
     this->Propusk_da->Visible = false;
     this->Propusk_net->Visible = false;
     this->Label_propusk->Visible = false;
-    this->Telephone->Enabled = false;
+    this->Phone_button->Enabled = false;
+    this->Answer1->Text = L"";
+    this->Answer2->Text = L"";
+    this->Answer3->Text = L"";
+    this->Answer4->Text = L"";
+    this->Answer5->Text = L"";
     if (g) totalActResNOT++;
     else totalMonsNOT++;
     if (proh == 5) {

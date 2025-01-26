@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\Visual Studio\\Kursovaya_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\resultat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:resultat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\Zvonok.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:Zvonok.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\resultat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:resultat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|D:\\Visual Studio\\Kursovaya_3\\resultat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{DFA14364-AFB3-4C7E-8318-CA988D12E19E}|Kursovaya.vcxproj|solutionrelative:resultat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,59 +38,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Igra.h",
+              "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\Igra.h",
+              "RelativeDocumentMoniker": "Igra.h",
+              "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\Igra.h",
+              "RelativeToolTip": "Igra.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAN4BAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-26T12:12:31.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "resultat.h",
               "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\resultat.h",
               "RelativeDocumentMoniker": "resultat.h",
               "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\resultat.h",
               "RelativeToolTip": "resultat.h",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAANUAAAAAAAAA",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T09:09:53.933Z"
+              "WhenOpened": "2025-01-26T09:09:53.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "resultat.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\resultat.h",
               "RelativeDocumentMoniker": "resultat.h",
               "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\resultat.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "resultat.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T09:03:16.506Z"
+              "WhenOpened": "2025-01-26T09:03:16.506Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Zvonok.h",
               "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\Zvonok.h",
               "RelativeDocumentMoniker": "Zvonok.h",
               "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\Zvonok.h",
               "RelativeToolTip": "Zvonok.h",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAAAAIAAAANAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T06:53:57.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Igra.h",
-              "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\Igra.h",
-              "RelativeDocumentMoniker": "Igra.h",
-              "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\Igra.h",
-              "RelativeToolTip": "Igra.h",
-              "ViewState": "AQIAAIkCAAAAAAAAAAAAAJkCAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-18T06:42:31.517Z",
+              "WhenOpened": "2025-01-26T06:53:57.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Igra.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\Igra.h",
               "RelativeDocumentMoniker": "Igra.h",
@@ -106,38 +105,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MyForm.h",
               "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\MyForm.h",
               "RelativeDocumentMoniker": "MyForm.h",
               "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\MyForm.h",
               "RelativeToolTip": "MyForm.h",
-              "ViewState": "AQIAAB0BAAAAAAAAAAAAADABAAA3AAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAABgBAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-18T06:30:07.928Z"
+              "WhenOpened": "2025-01-18T06:30:07.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MyForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\MyForm.h",
               "RelativeDocumentMoniker": "MyForm.h",
               "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\MyForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "MyForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-18T06:27:42.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyForm.cpp",
-              "DocumentMoniker": "D:\\Visual Studio\\Kursovaya_3\\MyForm.cpp",
-              "RelativeDocumentMoniker": "MyForm.cpp",
-              "ToolTip": "D:\\Visual Studio\\Kursovaya_3\\MyForm.cpp",
-              "RelativeToolTip": "MyForm.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-26T09:25:34.413Z"
+              "WhenOpened": "2025-01-18T06:27:42.832Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }

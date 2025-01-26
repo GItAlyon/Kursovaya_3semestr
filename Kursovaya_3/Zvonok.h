@@ -98,14 +98,7 @@ namespace Kursovaya {
 		auto s = d->ReadToEnd();
 		Zvon_text->Text = s;
 		d->Close();
-		/*if (f || f == 2) {
-			String^ str_otvet = gcnew String("Нет ответа.");
-			this->Otvet_zvon->Text = str_otvet;
-		}
-		else {
-			String^ str_otvet = gcnew String("Я дома!");
-			this->Otvet_zvon->Text = str_otvet;
-		}*/
+		
 		if (f == 0) {
 			String^ str_otvet = gcnew String("Номер не существует.");
 			this->Otvet_zvon->Text = str_otvet;
@@ -120,7 +113,7 @@ namespace Kursovaya {
 				this->Otvet_zvon->Text = str_otvet;
 			}
 			else {
-				String^ str_otvet = gcnew String("Нет ответа2.");
+				String^ str_otvet = gcnew String("Нет ответа.");
 				this->Otvet_zvon->Text = str_otvet;
 			}
 		}

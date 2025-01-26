@@ -271,6 +271,14 @@ namespace Kursovaya {
 private: System::Void pictureBox2_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void MyForm_Actiated(System::Object^ sender, System::EventArgs^ e) {
+    i = 0;
+    proh = 0;
+    f = 0; // Дома или нет
+    g = 0;
+    totalActualResidents = 0;
+    totalMonsters = 0;
+    totalActResNOT = 0;
+    totalMonsNOT = 0;
     FILE* resultFile = fopen("results2.txt", "r");
     if (resultFile == NULL) {
         std::cout << "Не удалось открыть файл для чтения.\n";
