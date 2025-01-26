@@ -15,7 +15,7 @@ class Resident
 private:
     char firstName[50];
     char lastName[50];
-    char id[3]; // Идентификационный номер из 2 цифр
+    char id[2]; // Идентификационный номер из 2 цифр
     Apperance appearance;
     char phone[10];
 
@@ -39,6 +39,6 @@ public:
     const char* getLastName() const { return lastName; }
     const char* getId() const { return id; }
     const char* getPhone() const { return phone; }
-    const Apperance& getAppearance() const { return appearance; }
+    const Apperance& getAppearance() { return appearance; }
 };
 

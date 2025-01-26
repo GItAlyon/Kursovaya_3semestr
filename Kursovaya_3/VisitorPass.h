@@ -15,7 +15,7 @@ class VisitorPass
 private:
     char firstName[50];
     char lastName[50];
-    char id[3];
+    char id[2];
     Apperance appearance;
 
 public:

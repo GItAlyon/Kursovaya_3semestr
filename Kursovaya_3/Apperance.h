@@ -26,11 +26,11 @@ public:
         strcpy(clothes, cloth);
     }
 
-    const char* getHairColor() {
+    const char* getHairColor() const {
         return hairColor;
     }
 
-    const char* getClothes() {
+    const char* getClothes() const {
         return clothes;
     }
 };

@@ -121,13 +121,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apperance.cpp" />
+    <ClCompile Include="CheckResult.cpp" />
     <ClCompile Include="Igra.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Resident.cpp" />
+    <ClCompile Include="resultat.cpp" />
     <ClCompile Include="VisitorPass.cpp" />
+    <ClCompile Include="Zvonok.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Apperance.h" />
+    <ClInclude Include="CheckResult.h" />
     <ClInclude Include="Igra.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -135,7 +139,13 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Resident.h" />
+    <ClInclude Include="resultat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="VisitorPass.h" />
+    <ClInclude Include="Zvonok.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Igra.resx">
@@ -143,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultat.resx">
+      <DependentUpon>resultat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zvonok.resx">
+      <DependentUpon>Zvonok.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

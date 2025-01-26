@@ -3,3 +3,8 @@ C:\Users\user\source\repos\Kursovaya\x64\Debug\Kursovaya.Igra.resources
 C:\Users\user\source\repos\Kursovaya\x64\Debug\Kursovaya.MyForm.resources
 C:\Users\user\source\repos\Kursovaya\x64\Debug\Kursovaya.vcxproj.GenerateResource.cache
 C:\Users\user\source\repos\Kursovaya\x64\Debug\Kursovaya.exe
+C:\Users\user\source\repos\Kursovaya_3\x64\Debug\Kursovaya.vcxproj.AssemblyReference.cache
+C:\Users\user\source\repos\Kursovaya_3\x64\Debug\Kursovaya.Igra.resources
+C:\Users\user\source\repos\Kursovaya_3\x64\Debug\Kursovaya.MyForm.resources
+C:\Users\user\source\repos\Kursovaya_3\x64\Debug\Kursovaya.vcxproj.GenerateResource.cache
+C:\Users\user\source\repos\Kursovaya_3\x64\Debug\Kursovaya.exe
