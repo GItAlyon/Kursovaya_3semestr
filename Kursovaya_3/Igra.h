@@ -68,8 +68,12 @@ namespace Kursovaya {
         System::Windows::Forms::Button^ Nach_igra;
         System::Windows::Forms::Button^ Exit;
     private: System::Windows::Forms::Button^ NaGlavnuu;
-    private: System::Windows::Forms::PictureBox^ pictureBox2;
-    private: System::Windows::Forms::PictureBox^ pictureBox1;
+    private: System::Windows::Forms::PictureBox^ Dos_pers1;
+
+
+
+
+
     private: System::Windows::Forms::Label^ Question1;
     private: System::Windows::Forms::TextBox^ Answer1;
 
@@ -97,6 +101,22 @@ namespace Kursovaya {
     private: System::Windows::Forms::Label^ Label_propusk;
     private: System::Windows::Forms::Button^ Propusk_da;
     private: System::Windows::Forms::Button^ Propusk_net;
+    private: System::Windows::Forms::PictureBox^ Oboi_pers1;
+    private: System::Windows::Forms::PictureBox^ Oboi_pers2;
+    private: System::Windows::Forms::PictureBox^ Oboi_pers3;
+    private: System::Windows::Forms::PictureBox^ Oboi_pers4;
+    private: System::Windows::Forms::PictureBox^ Oboi_pers5;
+    private: System::Windows::Forms::PictureBox^ Dos_pers2;
+    private: System::Windows::Forms::PictureBox^ Dos_pers3;
+    private: System::Windows::Forms::PictureBox^ Dos_pers4;
+    private: System::Windows::Forms::PictureBox^ Dos_pers5;
+
+
+
+
+
+
+
 
 
 
@@ -113,8 +133,7 @@ namespace Kursovaya {
         {
             System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Igra::typeid));
             this->NaGlavnuu = (gcnew System::Windows::Forms::Button());
-            this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
-            this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+            this->Dos_pers1 = (gcnew System::Windows::Forms::PictureBox());
             this->Question1 = (gcnew System::Windows::Forms::Label());
             this->Answer1 = (gcnew System::Windows::Forms::TextBox());
             this->Question2 = (gcnew System::Windows::Forms::Label());
@@ -139,8 +158,25 @@ namespace Kursovaya {
             this->Label_propusk = (gcnew System::Windows::Forms::Label());
             this->Propusk_da = (gcnew System::Windows::Forms::Button());
             this->Propusk_net = (gcnew System::Windows::Forms::Button());
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+            this->Oboi_pers1 = (gcnew System::Windows::Forms::PictureBox());
+            this->Oboi_pers2 = (gcnew System::Windows::Forms::PictureBox());
+            this->Oboi_pers3 = (gcnew System::Windows::Forms::PictureBox());
+            this->Oboi_pers4 = (gcnew System::Windows::Forms::PictureBox());
+            this->Oboi_pers5 = (gcnew System::Windows::Forms::PictureBox());
+            this->Dos_pers2 = (gcnew System::Windows::Forms::PictureBox());
+            this->Dos_pers3 = (gcnew System::Windows::Forms::PictureBox());
+            this->Dos_pers4 = (gcnew System::Windows::Forms::PictureBox());
+            this->Dos_pers5 = (gcnew System::Windows::Forms::PictureBox());
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers1))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers1))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers2))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers3))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers4))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers5))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers2))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers3))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers4))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers5))->BeginInit();
             this->SuspendLayout();
             // 
             // NaGlavnuu
@@ -150,38 +186,30 @@ namespace Kursovaya {
             this->NaGlavnuu->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(204)));
             this->NaGlavnuu->ForeColor = System::Drawing::Color::Maroon;
-            this->NaGlavnuu->Location = System::Drawing::Point(95, 108);
+            this->NaGlavnuu->Location = System::Drawing::Point(-2, 0);
             this->NaGlavnuu->Name = L"NaGlavnuu";
-            this->NaGlavnuu->Size = System::Drawing::Size(181, 64);
+            this->NaGlavnuu->Size = System::Drawing::Size(289, 89);
             this->NaGlavnuu->TabIndex = 0;
             this->NaGlavnuu->Text = L"√лавна€";
             this->NaGlavnuu->UseVisualStyleBackColor = false;
             this->NaGlavnuu->Click += gcnew System::EventHandler(this, &Igra::NaGlavnuu_Click);
             // 
-            // pictureBox2
+            // Dos_pers1
             // 
-            this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
-            this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-            this->pictureBox2->Location = System::Drawing::Point(-3, -3);
-            this->pictureBox2->Name = L"pictureBox2";
-            this->pictureBox2->Size = System::Drawing::Size(1514, 1032);
-            this->pictureBox2->TabIndex = 1;
-            this->pictureBox2->TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-            this->pictureBox1->Location = System::Drawing::Point(43, 108);
-            this->pictureBox1->Name = L"pictureBox1";
-            this->pictureBox1->Size = System::Drawing::Size(387, 529);
-            this->pictureBox1->TabIndex = 2;
-            this->pictureBox1->TabStop = false;
+            this->Dos_pers1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Dos_pers1.BackgroundImage")));
+            this->Dos_pers1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+            this->Dos_pers1->Location = System::Drawing::Point(12, 96);
+            this->Dos_pers1->Name = L"Dos_pers1";
+            this->Dos_pers1->Size = System::Drawing::Size(516, 539);
+            this->Dos_pers1->TabIndex = 2;
+            this->Dos_pers1->TabStop = false;
+            this->Dos_pers1->Click += gcnew System::EventHandler(this, &Igra::pictureBox1_Click);
             // 
             // Question1
             // 
             this->Question1->AutoSize = true;
             this->Question1->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Question1->Location = System::Drawing::Point(1169, 134);
+            this->Question1->Location = System::Drawing::Point(1157, 136);
             this->Question1->Name = L"Question1";
             this->Question1->Size = System::Drawing::Size(172, 16);
             this->Question1->TabIndex = 3;
@@ -189,7 +217,9 @@ namespace Kursovaya {
             // 
             // Answer1
             // 
-            this->Answer1->Location = System::Drawing::Point(1172, 168);
+            this->Answer1->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Answer1->ForeColor = System::Drawing::Color::Maroon;
+            this->Answer1->Location = System::Drawing::Point(1172, 166);
             this->Answer1->Name = L"Answer1";
             this->Answer1->Size = System::Drawing::Size(100, 22);
             this->Answer1->TabIndex = 4;
@@ -206,7 +236,9 @@ namespace Kursovaya {
             // 
             // Answer2
             // 
-            this->Answer2->Location = System::Drawing::Point(1172, 247);
+            this->Answer2->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Answer2->ForeColor = System::Drawing::Color::Maroon;
+            this->Answer2->Location = System::Drawing::Point(1172, 251);
             this->Answer2->Name = L"Answer2";
             this->Answer2->Size = System::Drawing::Size(100, 22);
             this->Answer2->TabIndex = 6;
@@ -215,7 +247,7 @@ namespace Kursovaya {
             // 
             this->Question3->AutoSize = true;
             this->Question3->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Question3->Location = System::Drawing::Point(1154, 295);
+            this->Question3->Location = System::Drawing::Point(1157, 298);
             this->Question3->Name = L"Question3";
             this->Question3->Size = System::Drawing::Size(159, 16);
             this->Question3->TabIndex = 7;
@@ -223,6 +255,8 @@ namespace Kursovaya {
             // 
             // Answer3
             // 
+            this->Answer3->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Answer3->ForeColor = System::Drawing::Color::Maroon;
             this->Answer3->Location = System::Drawing::Point(1172, 331);
             this->Answer3->Mask = L"00";
             this->Answer3->Name = L"Answer3";
@@ -233,7 +267,7 @@ namespace Kursovaya {
             // 
             this->Question4->AutoSize = true;
             this->Question4->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Question4->Location = System::Drawing::Point(1154, 377);
+            this->Question4->Location = System::Drawing::Point(1169, 377);
             this->Question4->Name = L"Question4";
             this->Question4->Size = System::Drawing::Size(118, 16);
             this->Question4->TabIndex = 9;
@@ -241,7 +275,9 @@ namespace Kursovaya {
             // 
             // Answer4
             // 
-            this->Answer4->Location = System::Drawing::Point(1172, 412);
+            this->Answer4->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Answer4->ForeColor = System::Drawing::Color::Maroon;
+            this->Answer4->Location = System::Drawing::Point(1172, 411);
             this->Answer4->Name = L"Answer4";
             this->Answer4->Size = System::Drawing::Size(100, 22);
             this->Answer4->TabIndex = 10;
@@ -250,14 +286,16 @@ namespace Kursovaya {
             // 
             this->Question5->AutoSize = true;
             this->Question5->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Question5->Location = System::Drawing::Point(1154, 451);
+            this->Question5->Location = System::Drawing::Point(1115, 449);
             this->Question5->Name = L"Question5";
-            this->Question5->Size = System::Drawing::Size(142, 16);
+            this->Question5->Size = System::Drawing::Size(285, 16);
             this->Question5->TabIndex = 11;
-            this->Question5->Text = L"¬ведите цвет волос:";
+            this->Question5->Text = L"¬ведите цвет волос(брюнет,седой,лысый):";
             // 
             // Answer5
             // 
+            this->Answer5->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Answer5->ForeColor = System::Drawing::Color::Maroon;
             this->Answer5->Location = System::Drawing::Point(1172, 480);
             this->Answer5->Name = L"Answer5";
             this->Answer5->Size = System::Drawing::Size(100, 22);
@@ -265,7 +303,9 @@ namespace Kursovaya {
             // 
             // Knopka_ok
             // 
-            this->Knopka_ok->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Knopka_ok->BackColor = System::Drawing::Color::Transparent;
+            this->Knopka_ok->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->Knopka_ok->ForeColor = System::Drawing::Color::Maroon;
             this->Knopka_ok->Location = System::Drawing::Point(1172, 560);
             this->Knopka_ok->Name = L"Knopka_ok";
             this->Knopka_ok->Size = System::Drawing::Size(109, 44);
@@ -309,7 +349,9 @@ namespace Kursovaya {
             // 
             // Telephone
             // 
-            this->Telephone->Location = System::Drawing::Point(193, 701);
+            this->Telephone->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Telephone->ForeColor = System::Drawing::Color::Maroon;
+            this->Telephone->Location = System::Drawing::Point(305, 687);
             this->Telephone->Mask = L"0000";
             this->Telephone->Name = L"Telephone";
             this->Telephone->Size = System::Drawing::Size(100, 22);
@@ -317,9 +359,11 @@ namespace Kursovaya {
             // 
             // Phone_button
             // 
-            this->Phone_button->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Phone_button->BackColor = System::Drawing::Color::Transparent;
             this->Phone_button->Enabled = false;
-            this->Phone_button->Location = System::Drawing::Point(193, 750);
+            this->Phone_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->Phone_button->ForeColor = System::Drawing::Color::Maroon;
+            this->Phone_button->Location = System::Drawing::Point(305, 732);
             this->Phone_button->Name = L"Phone_button";
             this->Phone_button->Size = System::Drawing::Size(100, 30);
             this->Phone_button->TabIndex = 18;
@@ -331,7 +375,7 @@ namespace Kursovaya {
             // 
             this->Phone_label->AutoSize = true;
             this->Phone_label->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Phone_label->Location = System::Drawing::Point(162, 661);
+            this->Phone_label->Location = System::Drawing::Point(290, 654);
             this->Phone_label->Name = L"Phone_label";
             this->Phone_label->Size = System::Drawing::Size(179, 16);
             this->Phone_label->TabIndex = 19;
@@ -350,7 +394,9 @@ namespace Kursovaya {
             // 
             // Zvon_da
             // 
-            this->Zvon_da->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Zvon_da->BackColor = System::Drawing::Color::Transparent;
+            this->Zvon_da->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->Zvon_da->ForeColor = System::Drawing::Color::Maroon;
             this->Zvon_da->Location = System::Drawing::Point(661, 411);
             this->Zvon_da->Name = L"Zvon_da";
             this->Zvon_da->Size = System::Drawing::Size(75, 23);
@@ -362,7 +408,9 @@ namespace Kursovaya {
             // 
             // Zvon_net
             // 
-            this->Zvon_net->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Zvon_net->BackColor = System::Drawing::Color::Transparent;
+            this->Zvon_net->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->Zvon_net->ForeColor = System::Drawing::Color::Maroon;
             this->Zvon_net->Location = System::Drawing::Point(791, 411);
             this->Zvon_net->Name = L"Zvon_net";
             this->Zvon_net->Size = System::Drawing::Size(75, 23);
@@ -374,7 +422,8 @@ namespace Kursovaya {
             // 
             // TextBox_prich
             // 
-            this->TextBox_prich->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->TextBox_prich->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->TextBox_prich->ForeColor = System::Drawing::Color::Maroon;
             this->TextBox_prich->Location = System::Drawing::Point(876, 328);
             this->TextBox_prich->Name = L"TextBox_prich";
             this->TextBox_prich->Size = System::Drawing::Size(206, 22);
@@ -394,7 +443,9 @@ namespace Kursovaya {
             // 
             // Propusk_da
             // 
-            this->Propusk_da->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Propusk_da->BackColor = System::Drawing::Color::Transparent;
+            this->Propusk_da->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->Propusk_da->ForeColor = System::Drawing::Color::Maroon;
             this->Propusk_da->Location = System::Drawing::Point(704, 503);
             this->Propusk_da->Name = L"Propusk_da";
             this->Propusk_da->Size = System::Drawing::Size(75, 23);
@@ -406,7 +457,9 @@ namespace Kursovaya {
             // 
             // Propusk_net
             // 
-            this->Propusk_net->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Propusk_net->BackColor = System::Drawing::Color::Transparent;
+            this->Propusk_net->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+            this->Propusk_net->ForeColor = System::Drawing::Color::Maroon;
             this->Propusk_net->Location = System::Drawing::Point(800, 503);
             this->Propusk_net->Name = L"Propusk_net";
             this->Propusk_net->Size = System::Drawing::Size(75, 23);
@@ -416,10 +469,112 @@ namespace Kursovaya {
             this->Propusk_net->Visible = false;
             this->Propusk_net->Click += gcnew System::EventHandler(this, &Igra::Propusk_net_Click);
             // 
+            // Oboi_pers1
+            // 
+            this->Oboi_pers1->BackColor = System::Drawing::Color::Transparent;
+            this->Oboi_pers1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Oboi_pers1.BackgroundImage")));
+            this->Oboi_pers1->Location = System::Drawing::Point(215, 0);
+            this->Oboi_pers1->Name = L"Oboi_pers1";
+            this->Oboi_pers1->Size = System::Drawing::Size(1329, 801);
+            this->Oboi_pers1->TabIndex = 27;
+            this->Oboi_pers1->TabStop = false;
+            // 
+            // Oboi_pers2
+            // 
+            this->Oboi_pers2->BackColor = System::Drawing::Color::Transparent;
+            this->Oboi_pers2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Oboi_pers2.BackgroundImage")));
+            this->Oboi_pers2->Location = System::Drawing::Point(215, 0);
+            this->Oboi_pers2->Name = L"Oboi_pers2";
+            this->Oboi_pers2->Size = System::Drawing::Size(1329, 801);
+            this->Oboi_pers2->TabIndex = 28;
+            this->Oboi_pers2->TabStop = false;
+            this->Oboi_pers2->Visible = false;
+            // 
+            // Oboi_pers3
+            // 
+            this->Oboi_pers3->BackColor = System::Drawing::Color::Transparent;
+            this->Oboi_pers3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Oboi_pers3.BackgroundImage")));
+            this->Oboi_pers3->Location = System::Drawing::Point(215, 0);
+            this->Oboi_pers3->Name = L"Oboi_pers3";
+            this->Oboi_pers3->Size = System::Drawing::Size(1329, 801);
+            this->Oboi_pers3->TabIndex = 29;
+            this->Oboi_pers3->TabStop = false;
+            this->Oboi_pers3->Visible = false;
+            // 
+            // Oboi_pers4
+            // 
+            this->Oboi_pers4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Oboi_pers4.BackgroundImage")));
+            this->Oboi_pers4->Location = System::Drawing::Point(215, 0);
+            this->Oboi_pers4->Name = L"Oboi_pers4";
+            this->Oboi_pers4->Size = System::Drawing::Size(1329, 801);
+            this->Oboi_pers4->TabIndex = 30;
+            this->Oboi_pers4->TabStop = false;
+            this->Oboi_pers4->Visible = false;
+            // 
+            // Oboi_pers5
+            // 
+            this->Oboi_pers5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Oboi_pers5.BackgroundImage")));
+            this->Oboi_pers5->Location = System::Drawing::Point(215, 0);
+            this->Oboi_pers5->Name = L"Oboi_pers5";
+            this->Oboi_pers5->Size = System::Drawing::Size(1329, 801);
+            this->Oboi_pers5->TabIndex = 31;
+            this->Oboi_pers5->TabStop = false;
+            this->Oboi_pers5->Visible = false;
+            // 
+            // Dos_pers2
+            // 
+            this->Dos_pers2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Dos_pers2.BackgroundImage")));
+            this->Dos_pers2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+            this->Dos_pers2->Location = System::Drawing::Point(12, 96);
+            this->Dos_pers2->Name = L"Dos_pers2";
+            this->Dos_pers2->Size = System::Drawing::Size(516, 539);
+            this->Dos_pers2->TabIndex = 32;
+            this->Dos_pers2->TabStop = false;
+            this->Dos_pers2->Visible = false;
+            // 
+            // Dos_pers3
+            // 
+            this->Dos_pers3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Dos_pers3.BackgroundImage")));
+            this->Dos_pers3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+            this->Dos_pers3->Location = System::Drawing::Point(12, 96);
+            this->Dos_pers3->Name = L"Dos_pers3";
+            this->Dos_pers3->Size = System::Drawing::Size(516, 539);
+            this->Dos_pers3->TabIndex = 33;
+            this->Dos_pers3->TabStop = false;
+            this->Dos_pers3->Visible = false;
+            // 
+            // Dos_pers4
+            // 
+            this->Dos_pers4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Dos_pers4.BackgroundImage")));
+            this->Dos_pers4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+            this->Dos_pers4->Location = System::Drawing::Point(12, 96);
+            this->Dos_pers4->Name = L"Dos_pers4";
+            this->Dos_pers4->Size = System::Drawing::Size(516, 539);
+            this->Dos_pers4->TabIndex = 34;
+            this->Dos_pers4->TabStop = false;
+            this->Dos_pers4->Visible = false;
+            // 
+            // Dos_pers5
+            // 
+            this->Dos_pers5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Dos_pers5.BackgroundImage")));
+            this->Dos_pers5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+            this->Dos_pers5->Location = System::Drawing::Point(12, 96);
+            this->Dos_pers5->Name = L"Dos_pers5";
+            this->Dos_pers5->Size = System::Drawing::Size(516, 539);
+            this->Dos_pers5->TabIndex = 35;
+            this->Dos_pers5->TabStop = false;
+            this->Dos_pers5->Visible = false;
+            // 
             // Igra
             // 
-            this->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
-            this->ClientSize = System::Drawing::Size(1920, 1055);
+            this->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->ClientSize = System::Drawing::Size(1540, 845);
+            this->Controls->Add(this->Dos_pers5);
+            this->Controls->Add(this->Dos_pers1);
+            this->Controls->Add(this->Dos_pers3);
+            this->Controls->Add(this->Dos_pers2);
+            this->Controls->Add(this->Dos_pers4);
+            this->Controls->Add(this->NaGlavnuu);
             this->Controls->Add(this->Propusk_net);
             this->Controls->Add(this->Propusk_da);
             this->Controls->Add(this->Label_propusk);
@@ -444,13 +599,23 @@ namespace Kursovaya {
             this->Controls->Add(this->Question2);
             this->Controls->Add(this->Answer1);
             this->Controls->Add(this->Question1);
-            this->Controls->Add(this->pictureBox1);
-            this->Controls->Add(this->pictureBox2);
-            this->Controls->Add(this->NaGlavnuu);
+            this->Controls->Add(this->Oboi_pers5);
+            this->Controls->Add(this->Oboi_pers1);
+            this->Controls->Add(this->Oboi_pers2);
+            this->Controls->Add(this->Oboi_pers3);
+            this->Controls->Add(this->Oboi_pers4);
             this->Name = L"Igra";
             this->Load += gcnew System::EventHandler(this, &Igra::Igra_Load);
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers1))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers1))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers2))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers3))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers4))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Oboi_pers5))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers2))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers3))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers4))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Dos_pers5))->EndInit();
             this->ResumeLayout(false);
             this->PerformLayout();
 
@@ -662,6 +827,31 @@ private: System::Void Propusk_da_Click(System::Object^ sender, System::EventArgs
     this->Answer3->Text = L"";
     this->Answer4->Text = L"";
     this->Answer5->Text = L"";
+    this->Telephone->Text = L"";
+    if (proh == 1) {
+        this->Oboi_pers2->Visible = true;
+        this->Oboi_pers1->Visible = false;
+        this->Dos_pers2->Visible = true;
+        this->Dos_pers1->Visible = false;
+    }
+    else if (proh == 2) {
+        this->Oboi_pers3->Visible = true;
+        this->Oboi_pers2->Visible = false;
+        this->Dos_pers3->Visible = true;
+        this->Dos_pers2->Visible = false;
+    }
+    else if (proh == 3) {
+        this->Oboi_pers4->Visible = true;
+        this->Oboi_pers3->Visible = false;
+        this->Dos_pers4->Visible = true;
+        this->Dos_pers3->Visible = false;
+    }
+    else if (proh == 4) {
+        this->Oboi_pers5->Visible = true;
+        this->Oboi_pers4->Visible = false;
+        this->Dos_pers5->Visible = true;
+        this->Dos_pers4->Visible = false;
+    }
     if (g) totalActualResidents++;
     else {
         totalMonsters++;
@@ -715,6 +905,31 @@ private: System::Void Propusk_net_Click(System::Object^ sender, System::EventArg
     this->Answer3->Text = L"";
     this->Answer4->Text = L"";
     this->Answer5->Text = L"";
+    this->Telephone->Text = L"";
+    if (proh == 1) {
+        this->Oboi_pers2->Visible = true;
+        this->Oboi_pers1->Visible = false;
+        this->Dos_pers2->Visible = true;
+        this->Dos_pers1->Visible = false;
+    }
+    else if (proh == 2) {
+        this->Oboi_pers3->Visible = true;
+        this->Oboi_pers2->Visible = false;
+        this->Dos_pers3->Visible = true;
+        this->Dos_pers2->Visible = false;
+    }
+    else if (proh == 3) {
+        this->Oboi_pers4->Visible = true;
+        this->Oboi_pers3->Visible = false;
+        this->Dos_pers4->Visible = true;
+        this->Dos_pers3->Visible = false;
+    }
+    else if (proh == 4) {
+        this->Oboi_pers5->Visible = true;
+        this->Oboi_pers4->Visible = false;
+        this->Dos_pers5->Visible = true;
+        this->Dos_pers4->Visible = false;
+    }
     if (g) totalActResNOT++;
     else totalMonsNOT++;
     if (proh == 5) {
@@ -734,6 +949,8 @@ private: System::Void Propusk_net_Click(System::Object^ sender, System::EventArg
         this->Close();
     }
     else this->Knopka_ok->Enabled = true;
+}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

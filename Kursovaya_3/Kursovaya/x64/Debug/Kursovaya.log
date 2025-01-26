@@ -1,17 +1,17 @@
 ﻿  Igra.cpp
-D:\Visual Studio\Kursovaya_3\Igra.h(547,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(712,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "Igra.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(551,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(716,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "Igra.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(555,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(720,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "Igra.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(559,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(724,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "Igra.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(563,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(728,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "Igra.cpp")
   
   MyForm.cpp
@@ -69,49 +69,48 @@ D:\Visual Studio\Kursovaya_3\VisitorPass.h(30,9): warning C4996: 'strcpy': This 
 D:\Visual Studio\Kursovaya_3\VisitorPass.h(31,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(501,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(666,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(510,16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(675,16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(547,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(712,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(551,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(716,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(555,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(720,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(559,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(724,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(563,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(728,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(604,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(769,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(613,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(778,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(668,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(858,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(685,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(875,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\Igra.h(721,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\Igra.h(936,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\MyForm.h(282,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\MyForm.h(308,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-D:\Visual Studio\Kursovaya_3\MyForm.h(290,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual Studio\Kursovaya_3\MyForm.h(316,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   (компиляция исходного файла "MyForm.cpp")
   
-  Zvonok.cpp
   Создание кода...
   Apperance.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   Kursovaya.vcxproj -> D:\Visual Studio\Kursovaya_3\x64\Debug\Kursovaya.exe

@@ -142,9 +142,11 @@ namespace Kursovaya {
             // 
             this->Rek->AutoSize = true;
             this->Rek->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Rek->Location = System::Drawing::Point(1135, 192);
+            this->Rek->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Rek->Location = System::Drawing::Point(1114, 192);
             this->Rek->Name = L"Rek";
-            this->Rek->Size = System::Drawing::Size(155, 16);
+            this->Rek->Size = System::Drawing::Size(203, 20);
             this->Rek->TabIndex = 3;
             this->Rek->Text = L"Рекорды за всё время:";
             // 
@@ -152,28 +154,36 @@ namespace Kursovaya {
             // 
             this->Label_ActualResidents->AutoSize = true;
             this->Label_ActualResidents->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Label_ActualResidents->Location = System::Drawing::Point(1042, 234);
+            this->Label_ActualResidents->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+                System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+            this->Label_ActualResidents->Location = System::Drawing::Point(901, 235);
             this->Label_ActualResidents->Name = L"Label_ActualResidents";
-            this->Label_ActualResidents->Size = System::Drawing::Size(276, 16);
+            this->Label_ActualResidents->Size = System::Drawing::Size(360, 20);
             this->Label_ActualResidents->TabIndex = 4;
             this->Label_ActualResidents->Text = L"Рекорд пропускания настоящих жильцов:";
             // 
             // Rek_ActualResidents
             // 
-            this->Rek_ActualResidents->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Rek_ActualResidents->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Rek_ActualResidents->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Rek_ActualResidents->ForeColor = System::Drawing::Color::Maroon;
             this->Rek_ActualResidents->Location = System::Drawing::Point(1262, 231);
             this->Rek_ActualResidents->Name = L"Rek_ActualResidents";
             this->Rek_ActualResidents->ReadOnly = true;
-            this->Rek_ActualResidents->Size = System::Drawing::Size(100, 22);
+            this->Rek_ActualResidents->Size = System::Drawing::Size(100, 24);
             this->Rek_ActualResidents->TabIndex = 5;
+            this->Rek_ActualResidents->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             // 
             // Label_Monsters
             // 
             this->Label_Monsters->AutoSize = true;
             this->Label_Monsters->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Label_Monsters->Location = System::Drawing::Point(1031, 284);
+            this->Label_Monsters->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Label_Monsters->Location = System::Drawing::Point(901, 282);
             this->Label_Monsters->Name = L"Label_Monsters";
-            this->Label_Monsters->Size = System::Drawing::Size(287, 16);
+            this->Label_Monsters->Size = System::Drawing::Size(370, 20);
             this->Label_Monsters->TabIndex = 6;
             this->Label_Monsters->Text = L"Рекорд пропускания монстров-двойников:";
             // 
@@ -181,9 +191,11 @@ namespace Kursovaya {
             // 
             this->Label_ActResNOT->AutoSize = true;
             this->Label_ActResNOT->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Label_ActResNOT->Location = System::Drawing::Point(979, 340);
+            this->Label_ActResNOT->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Label_ActResNOT->Location = System::Drawing::Point(901, 338);
             this->Label_ActResNOT->Name = L"Label_ActResNOT";
-            this->Label_ActResNOT->Size = System::Drawing::Size(339, 16);
+            this->Label_ActResNOT->Size = System::Drawing::Size(447, 20);
             this->Label_ActResNOT->TabIndex = 7;
             this->Label_ActResNOT->Text = L"Больше всего не пропущенных настоящих жильцов:";
             // 
@@ -191,38 +203,52 @@ namespace Kursovaya {
             // 
             this->Label_MonsNOT->AutoSize = true;
             this->Label_MonsNOT->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Label_MonsNOT->Location = System::Drawing::Point(968, 397);
+            this->Label_MonsNOT->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Label_MonsNOT->Location = System::Drawing::Point(901, 398);
             this->Label_MonsNOT->Name = L"Label_MonsNOT";
-            this->Label_MonsNOT->Size = System::Drawing::Size(350, 16);
+            this->Label_MonsNOT->Size = System::Drawing::Size(457, 20);
             this->Label_MonsNOT->TabIndex = 8;
             this->Label_MonsNOT->Text = L"Больше всего не пропущенных монстров-двойников:";
             // 
             // Rek_Monsters
             // 
-            this->Rek_Monsters->BackColor = System::Drawing::SystemColors::ActiveCaption;
+            this->Rek_Monsters->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Rek_Monsters->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Rek_Monsters->ForeColor = System::Drawing::Color::Maroon;
             this->Rek_Monsters->Location = System::Drawing::Point(1262, 278);
             this->Rek_Monsters->Name = L"Rek_Monsters";
             this->Rek_Monsters->ReadOnly = true;
-            this->Rek_Monsters->Size = System::Drawing::Size(100, 22);
+            this->Rek_Monsters->Size = System::Drawing::Size(100, 26);
             this->Rek_Monsters->TabIndex = 9;
+            this->Rek_Monsters->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             // 
             // Rek_ActResNOT
             // 
-            this->Rek_ActResNOT->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Rek_ActResNOT->Location = System::Drawing::Point(1247, 334);
+            this->Rek_ActResNOT->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Rek_ActResNOT->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Rek_ActResNOT->ForeColor = System::Drawing::Color::Maroon;
+            this->Rek_ActResNOT->Location = System::Drawing::Point(1262, 334);
             this->Rek_ActResNOT->Name = L"Rek_ActResNOT";
             this->Rek_ActResNOT->ReadOnly = true;
-            this->Rek_ActResNOT->Size = System::Drawing::Size(100, 22);
+            this->Rek_ActResNOT->Size = System::Drawing::Size(100, 26);
             this->Rek_ActResNOT->TabIndex = 10;
+            this->Rek_ActResNOT->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             // 
             // Rek_MonsNOT
             // 
-            this->Rek_MonsNOT->BackColor = System::Drawing::SystemColors::ActiveCaption;
-            this->Rek_MonsNOT->Location = System::Drawing::Point(1247, 394);
+            this->Rek_MonsNOT->BackColor = System::Drawing::SystemColors::ButtonFace;
+            this->Rek_MonsNOT->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(204)));
+            this->Rek_MonsNOT->ForeColor = System::Drawing::Color::Maroon;
+            this->Rek_MonsNOT->Location = System::Drawing::Point(1262, 394);
             this->Rek_MonsNOT->Name = L"Rek_MonsNOT";
             this->Rek_MonsNOT->ReadOnly = true;
-            this->Rek_MonsNOT->Size = System::Drawing::Size(100, 22);
+            this->Rek_MonsNOT->Size = System::Drawing::Size(100, 26);
             this->Rek_MonsNOT->TabIndex = 11;
+            this->Rek_MonsNOT->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             // 
             // MyForm
             // 

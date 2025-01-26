@@ -1,11 +1,9 @@
-﻿  Apperance.cpp
-  CheckResult.cpp
-  Igra.cpp
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(483,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(487,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(491,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(495,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(499,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+﻿  Igra.cpp
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(572,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(576,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(580,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(584,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(588,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
   MyForm.cpp
 C:\Users\user\source\repos\Kursovaya_3\Apperance.h(20,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Users\user\source\repos\Kursovaya_3\Apperance.h(21,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -25,16 +23,21 @@ C:\Users\user\source\repos\Kursovaya_3\VisitorPass.h(25,9): warning C4996: 'strc
 C:\Users\user\source\repos\Kursovaya_3\VisitorPass.h(29,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Users\user\source\repos\Kursovaya_3\VisitorPass.h(30,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Users\user\source\repos\Kursovaya_3\VisitorPass.h(31,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(438,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(447,16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(483,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(487,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(491,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(495,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-C:\Users\user\source\repos\Kursovaya_3\Igra.h(499,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-  Resident.cpp
-  VisitorPass.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(526,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(535,16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(572,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(576,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(580,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(584,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(588,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(629,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(638,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(693,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(710,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\Igra.h(746,28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\MyForm.h(308,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\Kursovaya_3\MyForm.h(316,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Zvonok.cpp
   Создание кода...
   Apperance.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   Kursovaya.vcxproj -> C:\Users\user\source\repos\Kursovaya_3\x64\Debug\Kursovaya.exe

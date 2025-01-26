@@ -62,28 +62,31 @@ namespace Kursovaya {
 			// Zvon_text
 			// 
 			this->Zvon_text->Location = System::Drawing::Point(0, 0);
+			this->Zvon_text->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Zvon_text->Multiline = true;
 			this->Zvon_text->Name = L"Zvon_text";
 			this->Zvon_text->ReadOnly = true;
-			this->Zvon_text->Size = System::Drawing::Size(281, 67);
+			this->Zvon_text->Size = System::Drawing::Size(212, 55);
 			this->Zvon_text->TabIndex = 0;
 			this->Zvon_text->TabStop = false;
 			// 
 			// Otvet_zvon
 			// 
-			this->Otvet_zvon->Location = System::Drawing::Point(0, 62);
+			this->Otvet_zvon->Location = System::Drawing::Point(0, 50);
+			this->Otvet_zvon->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Otvet_zvon->Name = L"Otvet_zvon";
 			this->Otvet_zvon->ReadOnly = true;
-			this->Otvet_zvon->Size = System::Drawing::Size(281, 22);
+			this->Otvet_zvon->Size = System::Drawing::Size(212, 20);
 			this->Otvet_zvon->TabIndex = 1;
 			// 
 			// Zvonok
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(282, 253);
+			this->ClientSize = System::Drawing::Size(238, 166);
 			this->Controls->Add(this->Otvet_zvon);
 			this->Controls->Add(this->Zvon_text);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"Zvonok";
 			this->Text = L"Zvonok";
 			this->Load += gcnew System::EventHandler(this, &Zvonok::Zvonok_Activated);
